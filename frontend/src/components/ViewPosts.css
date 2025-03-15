@@ -1,0 +1,131 @@
+/* Container holding all posts */
+.post-container {
+    margin-top: 25px;
+    border: 1px solid #cf1111;
+    border-radius: 8px;
+    padding: 20px; /* Adding some space inside the container */
+    background-color: linear-gradient(135deg, #ff6b6b, #556270); /* Same gradient background as add-post-card */
+    color: #fff; /* White text color */
+}
+
+/* Individual post card */
+.post-card {
+    height: auto;
+    margin: 0 auto; /* Centering the post card */
+    background-color: linear-gradient(135deg, #ff6b6b, #556270);
+    border: 1px solid #d1d1d1; /* Light gray border color */
+    border-radius: 6px; /* Round edges */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+    padding: 20px; /* Adding some space inside the card */
+}
+
+/* User information section */
+.post-user-info {
+    display: flex;
+    align-items: center;
+}
+
+/* Profile image */
+.profile-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%; /* Making the image round */
+}
+
+/* Post content */
+.post-content {
+    width: 100%;
+    height: auto;
+    margin-top: 15px; /* Adding some space between user info and content */
+    font-size: 16px; /* Increasing font size for better readability */
+    line-height: 1.5; /* Improving line spacing */
+}
+
+/* Input field for comments */
+.comment-input {
+    margin-top: 25px;
+    width: 100%; /* Making input field full width */
+    padding: 10px; /* Adding some space inside the input field */
+    border: 1px solid #ccc; /* Adding a border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+/* Button for posting comments */
+.comment-button {
+    margin-top: 10px;
+    padding: 8px 16px; /* Adding padding inside the button */
+    background-color: maroon; /* Green button color */
+    color: #ffffff; /* White text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.comment-button:hover {
+    background-color: maroon; /* Darker green on hover */
+}
+
+/* Button to view comments */
+.comment-button {
+    margin-top: 10px;
+    background-color: maroon;
+    border: none;
+    color: white; /* Green button color */
+    cursor: pointer;
+}
+
+.comments-button:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Modal for displaying comments */
+.comments-modal {
+    margin-top: 50px;
+}
+
+/* Title inside comments modal */
+.comments-modal-title {
+    margin-bottom: 20px;
+    font-size: 20px; /* Larger font size for title */
+    font-weight: bold; /* Making title bold */
+}
+
+/* Modal for displaying comments */
+.comments-modal {
+    margin-top: 50px;
+    max-width: 100%; /* Set maximum width to full viewport width */
+}
+
+/* Title inside comments modal */
+.comments-modal-title {
+    margin-bottom: 20px;
+    font-size: 20px; /* Larger font size for title */
+    font-weight: bold; /* Making title bold */
+}
+
+/* Customizing modal content */
+.comments-modal-content {
+    padding: 20px; /* Adding padding inside the modal content */
+    background-color: #fff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding shadow */
+}
+
+/* Customizing modal header */
+.comments-modal-header {
+    border-bottom: none; /* Removing border from header */
+    padding-bottom: 0; /* Removing padding from bottom */
+}
+
+/* Customizing modal body */
+.comments-modal-body {
+    padding-top: 0; /* Removing padding from top */
+}
+
+/* Customizing modal footer */
+.comments-modal-footer {
+    border-top: none; /* Removing border from footer */
+    padding-top: 20px; /* Adding padding to top */
+}

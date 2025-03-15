@@ -1,0 +1,47 @@
+/* Custom colorful styles for AddPost component */
+.update-post-card {
+    width: 100%; /* Set the width to 90% of the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding a shadow to the card */
+    border-radius: 12px; /* Adding some roundness to the card */
+    background: linear-gradient(135deg, #ff6b6b, #556270); /* Gradient background */
+    color: #fff; /* White text color */
+    padding: 20px; /* Adding padding */
+    text-align: center; /* Centering text */
+}
+
+.update-post-title {
+    margin-bottom: 20px; /* Adding some space below the title */
+}
+
+/* Customizing form elements */
+.update-post-form-label {
+    color: #fff; /* White text color */
+}
+
+.update-post-form-control {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    color: #fff; /* White text color */
+    border: none; /* Removing border */
+    border-radius: 6px; /* Adding some roundness */
+}
+
+.update-post-form-control:focus {
+    box-shadow: none; /* Removing focus shadow */
+}
+
+/* Customizing button */
+.update-post-button {
+    background-color: #4caf50; /* Green button color */
+    color: #fff; /* White text color */
+    border: none; /* Removing border */
+    border-radius: 6px; /* Adding some roundness */
+    padding: 10px 20px; /* Adding padding */
+    cursor: pointer; /* Changing cursor to pointer */
+    transition: background-color 0.3s; /* Adding smooth transition */
+    margin-top: 20px; /* Adding top margin */
+    display: inline-block; /* Ensuring button takes up only necessary space */
+}
+
+.update-post-button:hover {
+    background-color: #388e3c; /* Darker green color on hover */
+}

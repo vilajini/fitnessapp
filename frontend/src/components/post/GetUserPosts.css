@@ -1,0 +1,79 @@
+/* Container holding user posts */
+.container {
+    margin-top: 25px;
+    padding: 0 15px; /* Add padding to the left and right sides */
+    width: 1050px;
+    border: 1px solid #cf1111;
+    border-radius: 8px;
+}
+
+/* Heading for user posts */
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333; /* Dark gray text color */
+}
+
+/* Individual post card */
+.card {
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #ff6b6b, #556270); /* Gradient background for the card */
+    animation: fadeInUp 0.5s ease; /* Fade in animation */
+    margin-top: 25px;
+}
+
+/* Post card body */
+.card-body {
+    padding: 20px; /* Add padding inside the card body */
+}
+
+/* Post title */
+.card-title {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #fff; /* White text color */
+    text-align: center;
+}
+
+.card-description {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fff; /* White text color */
+    text-align: center;
+}
+
+/* Post media */
+.img-fluid {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Buttons for update and delete */
+.btn-primary,
+.btn-danger {
+    transition: transform 0.3s ease; /* Add transition for button transform */
+}
+
+.btn-primary:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+.btn-danger:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+/* Animation keyframes */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* Move down slightly */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Move back to original position */
+    }
+}
